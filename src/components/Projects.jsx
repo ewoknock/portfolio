@@ -9,13 +9,12 @@ const ProjsData = [
     { key: 204, name: 'Restaurant Page', img: Tweeter, alt: 'Restaurant Page', desc: 'A restaurant mockup page written primarily with Javascript DOM manipulation.', github: 'https://github.com/ewoknock/odin-javascript-projects/tree/main/restaurant-page', live: 'https://ewoknock.github.io/odin-javascript-projects/restaurant-page/dist/index.html' },
     { key: 205, name: 'Book Tracker', img: Tweeter, alt: 'Book Tracker', desc: 'A simple website that acts as a reading list. Built using Javascript, HTML, and CSS.', github: 'https://github.com/ewoknock/odin-javascript-projects/tree/main/library', live: 'https://ewoknock.github.io/odin-javascript-projects/library/index.html' },
 
-
   ];
 
 function Projects() {
     return (
         <>
-        <section className='container projects-section'>
+        <section className='contain projects-section'>
             <h1 className='projects-name'>Projects</h1>
             <div className='projects-wrapper'>
                 { ProjsData.map((item, key) => 

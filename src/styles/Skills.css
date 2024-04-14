@@ -1,3 +1,29 @@
 .skills-section{
-    text-align: center;
+    display: flex;
+
+    gap: 2rem;
+    background-color: var(--color-white);
+    
+
+}
+
+.skills-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 40vw;
+    min-width: 250px;
+    gap: 20px;
+}
+
+.tile-wrapper{
+    display: flex;
+    flex-direction: column;
+    min-width: 100px;
+    align-items: center;
+}
+
+.tile-wrapper>i{
+    font-size: 2rem;
+    height: auto;
 }
