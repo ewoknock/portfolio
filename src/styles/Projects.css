@@ -1,16 +1,12 @@
-.projects-section{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 2rem;
-}
+.projects-name{
 
+}
 .projects-wrapper{
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
     justify-content: center;
+    padding-bottom: 2rem;
 }
 
 .project-card{

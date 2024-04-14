@@ -3,7 +3,7 @@ import '../styles/Hero.css'
 
 function Hero(){
     return(
-        <div className='contain hero-section'>
+        <div className='hero-section'>
             <div className='hero-content'>
                 <h1 className='hero-name'>Enoch Hsu</h1>
                 <div className='hero-right'>

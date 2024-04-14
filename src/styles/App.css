@@ -41,13 +41,27 @@ body{
     text-align: center;
 }
 
+
+section {
+    display: grid;
+    justify-content: center;
+    min-height: 100vh;
+    grid-template-rows: 10rem auto;
+    gap: 1rem;
+}
+
+h1{
+    font-size: 4rem !important;
+    place-content: center;
+}
+  /*
 main{
     width: 100%;
     display: flex;
     flex-direction: column;
 
-}
-
+}*/
+/*
 .contain{
     display: flex;
     flex-direction: column;
@@ -58,3 +72,4 @@ main{
     max-width: 100vw !important; 
 
 }
+*/
