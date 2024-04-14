@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link } from 'react-scroll'
 import '../styles/Navbar.css'
 
 function Navbar() {
@@ -7,9 +7,15 @@ function Navbar() {
         <>
             <nav className ='navbar sticky-top'>
                 <div className='container-fluid'>
-                    <Link to='/' className='navbar-brand'>Enoch Hsu</Link>
+                    <Link to='hero-section' className='navbar-brand'>Enoch Hsu</Link>
                     <div className="nav">
                         <ul className='navbar-actions'>
+                            <li className='nav-item'>
+                                <Link to='skills-section' className='nav-link'>Skills</Link>
+                            </li>
+                            <li className='nav-item'>
+                                <Link to='projects-section' className='nav-link'>Projects</Link>
+                            </li>
                             <li className='nav-item'>
                                 <a className='nav-link' href="https://github.com/ewoknock" target='_blank' rel='noopener noreferrer'>GitHub</a>
                             </li>

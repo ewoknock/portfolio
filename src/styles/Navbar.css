@@ -4,6 +4,7 @@
     justify-content: space-between;
 }
 
+:hover.navbar-brand,
 :hover.nav-link{
     cursor: pointer;
 }

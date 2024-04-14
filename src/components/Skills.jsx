@@ -16,7 +16,7 @@ const SkillData = [
 function Skills() {
     return (
         <>
-        <section className='skills-section'>
+        <section className='skills-section' id='skills-section'>
             <h1 className='section-name'>Skillset</h1>
             <div className='skills-wrapper'>
                 {SkillData.map((item, key) =>

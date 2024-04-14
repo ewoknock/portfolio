@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: center;
     transform: translateY(-60px);
+    padding-bottom: 4rem;  
 }
 
 .hero-content{

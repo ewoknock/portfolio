@@ -14,7 +14,7 @@ const ProjsData = [
 function Projects() {
     return (
         <>
-        <section className='projects-section'>
+        <section className='projects-section' id='projects-section'>
             <h1 className='projects-name'>Projects</h1>
             <div className='projects-wrapper'>
                 { ProjsData.map((item, key) => 
