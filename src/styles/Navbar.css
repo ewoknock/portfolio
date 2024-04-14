@@ -1,0 +1,12 @@
+.navbar{
+    margin: 1vh 5vw;
+    display: flex;
+    justify-content: space-between;
+    position: sticky !important;
+    top: 0;
+    z-index: 100;
+}
+
+:hover.nav-link{
+    cursor: pointer;
+}
