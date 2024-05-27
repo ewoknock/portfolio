@@ -11,7 +11,7 @@ import '../styles/Projects.css'
 
 const ProjsData = [
     { key: 201, name: 'Tweeter', img: Tweeter, alt: 'Twitter Clone', desc: 'A twitter clone built using Ruby on Rails', github: 'https://github.com/ewoknock/tweeter', live: 'https://tweeter-twitterclone.fly.dev/' },
-    { key: 202, name: 'Resume Generator', img: Resume, alt: 'Resume Generator', desc: 'A resume generator built using React', github: 'https://github.com/ewoknock/cv-generator', live: 'https://ewoknock.github.io/cv-generator' },
+    { key: 202, name: 'Resume Builder', img: Resume, alt: 'Resume Builder', desc: 'A resume builder built using React', github: 'https://github.com/ewoknock/cv-generator', live: 'https://ewoknock.github.io/cv-generator' },
     { key: 203, name: 'Shopping Cart', img: ShoppingCart, alt: 'Shopping Cart', desc: 'A simple mock shop site with the primary focus being on implementing a cart', github: 'https://github.com/ewoknock/shopping-cart', live: 'https://ewoknock.github.io/shopping-cart/' },
     { key: 301, name: 'Battleship', img: Battleship, alt: 'Battleship', desc: 'A simple web version of the classic battleship game that pits the user against a computer.', github: 'https://github.com/ewoknock/odin-javascript-projects/tree/main/battleship', live: 'https://ewoknock.github.io/odin-javascript-projects/battleship/dist/index.html' },
     { key: 302, name: 'To Do List', img: ToDo, alt: 'To Do List', desc: 'A simple task and project organizer created with Javascript DOM manipulation.', github: 'https://github.com/ewoknock/odin-javascript-projects/tree/main/to-do-list', live: 'https://ewoknock.github.io/odin-javascript-projects/to-do-list/dist/index.html' },
