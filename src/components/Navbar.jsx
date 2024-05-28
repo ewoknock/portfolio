@@ -1,5 +1,5 @@
-import React from 'react'
 import { Link } from 'react-scroll'
+import resume from '../images/Resume.pdf'
 import '../styles/Navbar.css'
 
 function Navbar() {
@@ -21,6 +21,9 @@ function Navbar() {
                             </li>
                             <li className='nav-item'>
                                 <a className='nav-link' href="https://www.linkedin.com/in/enoch-hsu" target='_blank' rel='noopener noreferrer'>LinkedIn</a>
+                            </li>
+                            <li className='nav-item'>
+                                <a className='nav-link' href={resume} download>Resume</a>
                             </li>
                         </ul>
                     </div>

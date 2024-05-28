@@ -1,4 +1,3 @@
-import React from 'react'
 import Tweeter from '../images/tweeter-splash.png'
 import Resume from '../images/resume.png'
 import Weather from '../images/weather-app.png'
@@ -7,6 +6,7 @@ import Restaurant from '../images/restaurant.png'
 import Booktracker from '../images/booktracker.png'
 import Battleship from '../images/Battleship.png'
 import ShoppingCart from '../images/shopping-cart.png'
+import Calculator from '../images/calculator.png'
 import '../styles/Projects.css'
 
 const ProjsData = [
@@ -18,7 +18,8 @@ const ProjsData = [
     { key: 303, name: 'Weather App', img: Weather, alt: 'Weather App', desc: 'A simple web app that utilizes API calls to get weather info and display it on the page.', github: 'https://github.com/ewoknock/odin-javascript-projects/tree/main/weather-app', live: 'https://ewoknock.github.io/odin-javascript-projects/weather-app/dist/index.html' },
     { key: 304, name: 'Book Tracker', img: Booktracker, alt: 'Book Tracker', desc: 'A simple website that acts as a reading list. Built using Javascript, HTML, and CSS.', github: 'https://github.com/ewoknock/odin-javascript-projects/tree/main/library', live: 'https://ewoknock.github.io/odin-javascript-projects/library/index.html' },
     { key: 305, name: 'Restaurant Page', img: Restaurant, alt: 'Restaurant Page', desc: 'A restaurant mockup page written primarily with Javascript DOM manipulation.', github: 'https://github.com/ewoknock/odin-javascript-projects/tree/main/restaurant-page', live: 'https://ewoknock.github.io/odin-javascript-projects/restaurant-page/dist/index.html' },
-  ];
+    { key: 401, name: 'Calculator', img: Calculator, alt: 'Calculator', desc: 'A simple website calculator. Built using Javascript, HTML, and CSS.', github: 'https://github.com/ewoknock/odin-calculator', live: 'https://ewoknock.github.io/odin-calculator/' },  
+];
 
 function Projects() {
     return (
