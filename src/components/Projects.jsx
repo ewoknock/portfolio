@@ -7,12 +7,14 @@ import Booktracker from '../images/booktracker.png'
 import Battleship from '../images/Battleship.png'
 import ShoppingCart from '../images/shopping-cart.png'
 import Calculator from '../images/calculator.png'
+import Waldo from '../images/waldo.png'
 import '../styles/Projects.css'
 
 const ProjsData = [
     { key: 201, name: 'Tweeter', img: Tweeter, alt: 'Twitter Clone', desc: 'A twitter clone built using Ruby on Rails', github: 'https://github.com/ewoknock/tweeter', live: 'https://tweeter-twitterclone.fly.dev/' },
     { key: 202, name: 'Resume Builder', img: Resume, alt: 'Resume Builder', desc: 'A resume builder built using React', github: 'https://github.com/ewoknock/cv-generator', live: 'https://ewoknock.github.io/cv-generator' },
     { key: 203, name: 'Shopping Cart', img: ShoppingCart, alt: 'Shopping Cart', desc: 'A simple mock shop site with the primary focus being on implementing a cart', github: 'https://github.com/ewoknock/shopping-cart', live: 'https://ewoknock.github.io/shopping-cart/' },
+    { key: 204, name: 'Wheres Waldo', img: Waldo, alt: 'Wheres Waldo', desc: 'A Wheres Waldo style game utilizing React for the front end and Rails API as the backend', github: 'https://github.com/ewoknock/whereswaldo', live: 'https://ewoknock.github.io/whereswaldo/' },
     { key: 301, name: 'Battleship', img: Battleship, alt: 'Battleship', desc: 'A simple web version of the classic battleship game that pits the user against a computer.', github: 'https://github.com/ewoknock/odin-javascript-projects/tree/main/battleship', live: 'https://ewoknock.github.io/odin-javascript-projects/battleship/dist/index.html' },
     { key: 302, name: 'To Do List', img: ToDo, alt: 'To Do List', desc: 'A simple task and project organizer created with Javascript DOM manipulation.', github: 'https://github.com/ewoknock/odin-javascript-projects/tree/main/to-do-list', live: 'https://ewoknock.github.io/odin-javascript-projects/to-do-list/dist/index.html' },
     { key: 303, name: 'Weather App', img: Weather, alt: 'Weather App', desc: 'A simple web app that utilizes API calls to get weather info and display it on the page.', github: 'https://github.com/ewoknock/odin-javascript-projects/tree/main/weather-app', live: 'https://ewoknock.github.io/odin-javascript-projects/weather-app/dist/index.html' },
